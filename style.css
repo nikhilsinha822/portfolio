@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Dosis', sans-serif;
+    color: #06283D;
+}
+.odd{
+    background-color: #47B5FF;
+}
+.even{
+    background-color: #DFF6FF;
+}
+/* navbar */
+a{
+    font-size: 2vmax;
+    text-decoration: none;
+    margin: 1vmax;
+    color: #06283D;
+}
+.topnav .icon {
+    display: none;
+    float: left;
+}
+.topnav{
+    padding: 10px 90px;
+    background-color: rgba(37, 49, 109,0.2);
+}
+@media screen and (max-width: 768px) {
+.topnav a {display: none;}
+.topnav a.icon {
+    float: left;
+    display: block;
+    margin-top: 0;
+}
+}
+@media screen and (max-width: 768px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+      float: left;
+      width: 550px;
+    }
+    .topnav.responsive a {
+      text-decoration: none;
+      font-size: 2.5vmax;
+      padding: 2vmax 4vmax 0vmax;
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .topnav{
+        padding: 20px 90px;
+        background-color: rgba(37, 49, 109,0.2);
+    }
+}
+/* introduction */
+.intro{
+    font-size: 4.5vmax;
+}
+.cint{
+    padding: 3vmax 8vmax;
+}
+@media screen and (min-width: 768px){
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width:100%; 
+    }
+}
+@media screen and (max-width: 768px){
+    .intimg{
+        width: 300px;
+    }
+    .child{
+        text-align: center;
+    }
+}
+/* skills */
+.bigHeading{
+    text-align: center;
+    font-size: 6vmax;
+    padding: 40px;
+}
+.subHead{
+    font-size: 3vmax;
+    line-height: 50vh;
+    text-align: center;
+}
+.childimage{
+    width: 500px;
+}
+@media screen and (max-width: 768px){
+    .bigHeading{
+        text-align: center;
+        font-size: 7vmax;
+    }
+    .subHead{
+        font-size: 4vmax;
+        line-height: 5vh;
+        text-align: center;
+    }
+    .childimage{
+        width: 350px;
+    }   
+}
+/* hobbies */
+.hobbiTxt{
+    text-align: center;
+    font-size: 2vmax;
+    padding: 2vw;
+    margin-top: 15%;
+}
+.hobbiTxt1{
+    text-align: center;
+    font-size: 2vmax;
+    padding: 4vw;
+    margin-top: 10%;
+}
+.hobimage1{
+    width: 350px;
+    margin-left: 20%;
+    margin-top: -10vh;
+    margin-bottom: -6vh;
+    margin-right: 0;
+}
+.hobimage2{
+    width: 450px;
+    margin-left: 10%;
+    margin-top: -10vh;
+    margin-bottom: -1vh;
+}
+@media screen and (max-width: 768px){
+    .hobbiTxt{
+        text-align: center;
+        font-size: 3vmax;
+        margin-top: 0;
+    }
+    .hobbiTxt1{
+        text-align: center;
+        font-size: 3vmax;
+    }
+    .hobimage1{
+        width: 250px;
+        margin: 40px 0;
+    }
+    .hobimage2{
+        width: 350px;
+        margin: -50px 0;
+    }
+    
+}
+/* projects */
+.proimg{
+    width: 600px;
+}
+.prohead{
+    padding-top: 4vmax;
+    font-size: 3vmax;
+    text-align: center;
+}
+.procont{
+     font-size: 1.5vmax;
+     text-align: center;
+     padding-bottom: 6vmax;
+}
+button{
+    background-color: #1dbeeb; 
+    border: none;
+    color: white;
+    padding: 1vmax 2vmax;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  button:hover{
+      background-color: #19b4df; 
+  }
+.btn{
+    text-align: center;
+}
+@media screen and (max-width: 768px){
+    .proimg{
+        width: 350px;
+    }
+    .prohead{
+        padding-top: 5vmax;
+        font-size: 5vmax;
+        text-align: center;
+    }
+    .procont{
+         font-size: 2.5vmax;
+         text-align: center;
+         padding-bottom: 6vmax;
+    }
+}
+/* contacts */
+.contHead{
+    font-size: 3vmax;
+    line-height: 4vmax;
+    text-align: center;
+}
+.contact{
+    text-align: center;
+}
+.botxt{
+    color: #E1FFEE;
+    line-height: 40px;
+}
+.icons{
+    padding-bottom: 10px;
+}
+.black:hover{
+    color: white;
+}
+.yellow:hover{
+    color: white;
+    
+}
+.red:hover{
+    color: orangered;
+    
+}
+.blue:hover{
+     color: blue;
+}
